@@ -14,121 +14,13 @@ main {
     flex: 1 0 auto;
     height: 100%;
 }
-    
-/*--------------header------------*/
 
-.header__logo {
-	margin: 0 20px;
-}
-
-.header__logo__img {
-	height: 45px;
-	margin: 7px 20px;
-	color: #fff;
-}
-
-.header__link {
-	height: 25px;
-    margin: 20px 20px;
-    text-decoration: none;
-}
-.body-header {
-    margin: 40px 0 60px 0;
-}
-.header__contacts {
-    margin-right: 40px;
-    font-size: 18px;
-}
-.header-info {
-    padding: 5px 0;
-}
-/*------------- send-form ----------------------*/
-
-.form-wrapper {
-    width: 350px;
-    margin: 250px auto;
-    position: relative;
-    height: 100%;
-}
-
-.body-wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(105, 105, 105, .7);
-    z-index: 3;
-    
-}
-
-
-.send__form {
-    border: none;
-    border-radius: 10px;
-    padding: 20px 30px;
-    position: relative;
-    height: 420px;
-    width: 350px;
-    margin: 250px auto;
-    background: #FFF;
-    font-size: 12px;   
-}
-
-
-
-.close__btn {
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    line-height: 10px;
-    border-radius: 50px;
-    border: none;
-    right: -10px;
-    top: -10px;
-}
-.send__app {
-    cursor: pointer;
-}
-.form__send__btn {
-    margin-top: 60px;
-}
-
-.mob-form {
-    margin: 60px 0 100px 0;
-}
-
-/*-------------- chips ----------------*/
-
-.chieps-field {
-	position: absolute;	
-    min-width: 110px;
-    z-index: 999;
-}
-
-.chips {
-	padding: 5px 10px;
-	background: #87CEFA;
-	z-index: 9999;
-	position: relative;
-	margin: 10px 20px;
-	font-size: 18px;
-	line-height: 1.5;
-	border-radius: 5px;
-	border: 1px solid #ccc;
-	box-shadow: 1px 1px 1px #999;
-}
-
-/*------------- main ---------------*/
+/*------------- content ---------------*/
 
 h1 {
     font-size: 50px;
+    text-align: center;
 }
-
-/* .main-h1 {
-    margin: 80px 0 60px 0;
-    font-size: 20px;
-} */
 
 .line {
 	border: 2px solid gray;
@@ -187,7 +79,124 @@ h1 {
 .mb {
     margin-bottom: 120px;
 }
+    
+/*-------------- header ------------*/
 
+.header__logo {
+	margin: 0 20px;
+}
+
+.header__logo__img {
+	height: 45px;
+	margin: 7px 20px;
+	color: #fff;
+}
+
+.header__link {
+	height: 25px;
+    margin: 20px 20px;
+    text-decoration: none;
+}
+.body-header {
+    margin: 40px 0 60px 0;
+}
+.header__contacts {
+    margin-right: 40px;
+    font-size: 18px;
+}
+.header-info {
+    padding: 5px 0;
+}
+/*------------- send-form ---------------*/
+
+.form-wrapper {
+    width: 350px;
+    margin: 250px auto;
+    position: relative;
+    height: 100%;
+}
+
+.body-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(105, 105, 105, .7);
+    z-index: 3;
+    
+}
+
+.send__form {
+    border: none;
+    border-radius: 10px;
+    padding: 20px 30px;
+    position: relative;
+    height: 420px;
+    width: 350px;
+    margin: 250px auto;
+    background: #FFF;
+    font-size: 12px;   
+}
+
+.close__btn {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    line-height: 10px;
+    border-radius: 50px;
+    border: none;
+    right: -10px;
+    top: -10px;
+}
+
+.send__app {
+    cursor: pointer;
+}
+
+.form__send__btn {
+    margin-top: 60px;
+}
+
+.mob-form {
+    margin: 60px 0 100px 0;
+}
+
+/*-------------- chips ----------------*/
+
+.chieps-field {
+	position: absolute;	
+    min-width: 110px;
+    z-index: 999;
+}
+
+.chips {
+	padding: 5px 10px;
+	background: #87CEFA;
+	z-index: 9999;
+	position: relative;
+	margin: 10px 20px;
+	font-size: 18px;
+	line-height: 1.5;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    text-align: center;
+}
+
+.chips-mod {
+    border: 10px solid #B0E0E6;
+    border-radius: 5px;
+    padding: 20px 30px;
+    position: relative;
+    height: 100x;
+    width: 220px;
+    margin: 250px auto;
+    background: #FFF;
+    font-size: 18px;   
+}
+
+/*------------- hide ---------------*/
 
 .hide {
     display: none;

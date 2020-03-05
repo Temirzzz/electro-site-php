@@ -1,15 +1,20 @@
 function succsess () {
-	let chips = document.createElement('div');
-	chips.classList.add('chips');
+	let modalWin = document.createElement('div');
+	modalWin.classList.add('body-wrapper')
+	let chipsMod = document.createElement('div');
+	chipsMod.classList.add('chips-mod');
 	let message = document.createTextNode("Письмо было успешно отправлено!");
-	chips.appendChild(message);
+	chipsMod.appendChild(message);
+	modalWin.appendChild(chipsMod);
 	let chiepsField = document.querySelector('.chieps-field');
-	chiepsField.appendChild(chips);
+	chiepsField.appendChild(modalWin);
 	
 	setTimeout(()=> {
-		chipsRemove (chips);
+		modalWinRemove (modalWin);
 	}, 4000)
 }
+
+
 
 function chipsCreate () {
 	let chips = document.createElement('div');
@@ -22,6 +27,11 @@ function chipsCreate () {
 	setTimeout(()=> {
 		chipsRemove (chips);
 	}, 3000)
+}
+
+
+function modalWinRemove (modalWin) {
+	modalWin.remove ();
 }
 
 function chipsRemove (chips) {

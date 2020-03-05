@@ -35,6 +35,9 @@ document.querySelector('.form__send__btn').onclick = (e) => {
             //console.log(response.status);
             if (response.status == 200) {
                 succsess ();
+                setTimeout(() => {
+                    document.location.href = "./index.php";
+                }, 2000)                
             }
         })    
 	}

@@ -11,27 +11,29 @@ close ($conn);
 
 <div class="row">
     <div class="col s12 m10 offset-m1 l6 offset-l3">
-        <h2 class="center-align body-h2">Наши работы</h2>
-        <?php
-            $out = '';
-                for ($i = 0; $i < count($data); $i++){
-                    $out .= "<div class='col s10 offset-s1 offset-m1 m10 l6 '>";  
-                    $out .= "<div class='card medium'>";   
-                    $out .= "<div class='card-image waves-effect waves-block waves-light'>";    
-                    $out .= "<img src='./image/{$data[$i]['image']}' class='activator responsive-img' alt=''>";   
-                    $out .= "</div>";
-                    $out .= "<div class='card-content'>";      
-                    $out .= "<span class='card-title activator grey-text text-darken-4'>{$data[$i]['title']}<i class='material-icons right'>more_vert</i></span>";
-                    $out .= "</div>";
-                    $out .= "<div class='card-reveal'>"; 
-                    $out .= "<span class='card-title grey-text text-darken-4'>Card Title<i class='material-icons right'>close</i></span>";   
-                    $out .= "<p>{$data[$i]['article']}</p>";
-                    $out .= "</div>";
-                    $out .= "</div>";
-                    $out .= "</div>";                                      
-                }
-            echo $out;
-        ?>
+        <h1>Наши работы</h1>
+        <div class="card-wrapper">
+            <?php
+                $out = '';
+                    for ($i = 0; $i < count($data); $i++){
+                        $out .= "<div class='col s10 offset-s1 offset-m1 m10 l6 '>";  
+                        $out .= "<div class='card medium'>";   
+                        $out .= "<div class='card-image waves-effect waves-block waves-light'>";    
+                        $out .= "<img src='./image/{$data[$i]['image']}' class='activator responsive-img' alt=''>";   
+                        $out .= "</div>";
+                        $out .= "<div class='card-content'>";      
+                        $out .= "<span class='card-title activator grey-text text-darken-4'>{$data[$i]['title']}<i class='material-icons right'>more_vert</i></span>";
+                        $out .= "</div>";
+                        $out .= "<div class='card-reveal'>"; 
+                        $out .= "<span class='card-title grey-text text-darken-4'>{$data[$i]['title']}<i class='material-icons right'>close</i></span>";   
+                        $out .= "<p>{$data[$i]['article']}</p>";
+                        $out .= "</div>";
+                        $out .= "</div>";
+                        $out .= "</div>";                                      
+                    }
+                echo $out;
+            ?>
+        </div>
     </div>
 </div>
 
