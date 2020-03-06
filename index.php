@@ -4,12 +4,11 @@ require_once('template/header.php');
 
 <div class="chieps-field"></div>
 <div class="chieps-field-modal"></div>	
-	
+	<h1 class="center-align">Электромонтажные работы в Краснодаре</h1>
+	<h4 class="main-h4">Наша компания оказывает полный спектр услуг по электромонтажу</h4>	
 	<div class="container">
-		<div class="row">
-		<h1 class="center-align">Электромонтажные работы в Краснодаре</h1>
-		<h4 class="main-h4">Наша компания оказывает полный спектр услуг по электромонтажу</h4>
-			<div class="col l12 m10 offset-m1 s12">		
+		<div class="row">		
+			<div class="col l12 m10 offset-m1 s12">				
 				<div class="line center-align"></div>		
 				<p class="main-p center-align">
 					Работы по электромонтажу-это отдельный вид строительных работ, который выполняется во время строительства помещений жилого или коммерческого типа и связан непосредственно с профессиональным монтажом электросетей. Это такие работы как, прокладывание линий электропередач, проводов, установка различного электрооборудования и много другое. Так же такие виды работ могут производиться вне помещения, например: монтаж воздушных линий электропередач. 
@@ -22,7 +21,7 @@ require_once('template/header.php');
 	
 	<div class="container">
 		<div class="row">
-			<div class="col l10 offset-l4 m10 offset-m3 s12 offset-s2">
+			<div class="col l10 offset-l4 m10 offset-m3 s10 offset-s1">
 				<ul class="main-ul">
 					<li class="main-ul__li"><img class="mark" src="image/mark.png"/>Прокладка и замена проводки</li>
 					<li class="main-ul__li"><img class="mark" src="image/mark.png"/>Установка, замена, счетчиков, щитов</li>

@@ -80,6 +80,7 @@ h5 {
 .main-h4 {
     padding: 40px 0 0 0;
     text-align: center;
+    margin: 0;
 }
 
 .mb {
@@ -249,4 +250,10 @@ h5 {
 	.about-baner {
 		display: none;
 	}
+}
+
+@media (max-width: 520px) {
+    h1 {
+        font-size: 40px;
+    }
 }
