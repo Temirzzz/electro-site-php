@@ -3,14 +3,12 @@ require_once('template/header.php');
 ?>
 
 <div class="chieps-field"></div>
-<div class="chieps-field-modal"></div>
-
-
-<h1 class="center-align">Электромонтажные работы в Краснодаре</h1>
-	<h4 class="main-h4">Наша компания оказывает полный спектр услуг по электромонтажу</h4>
+<div class="chieps-field-modal"></div>	
 	
 	<div class="container">
 		<div class="row">
+		<h1 class="center-align">Электромонтажные работы в Краснодаре</h1>
+		<h4 class="main-h4">Наша компания оказывает полный спектр услуг по электромонтажу</h4>
 			<div class="col l12 m10 offset-m1 s12">		
 				<div class="line center-align"></div>		
 				<p class="main-p center-align">
@@ -63,8 +61,7 @@ require_once('template/header.php');
 Доверив электромонтажные работы профессиональным специалистам, вы сэкономите не только свое драгоценное время, но и финансы. Плюс к этому, получите гарантию качества и надежности всей электросистемы, а также уверенность в ее бесперебойной работе и своей безопасности.
 			</p>
 		</div>
-	</div>
-	
+	</div>	
 
 <?php
 require_once('send-form.php')
