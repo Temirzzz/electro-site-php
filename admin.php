@@ -27,7 +27,13 @@ $conn = connect();
     window.onload = () => {
         let checkDelete = document.querySelectorAll('.check-delete');
         checkDelete.forEach((element) => {
-            element.onclick = deleteArt;
+            if (document.cookie == false) {
+                //console.log('ampty');                
+                return false;
+            }
+            else {
+                element.onclick = deleteArt;
+            }
         })
         function deleteArt (e) {
             e.preventDefault();
