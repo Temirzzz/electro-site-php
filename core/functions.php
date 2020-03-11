@@ -71,7 +71,7 @@ function sendMail ($conn) {
 
     $pagetitle = "Новая заявка с сайта \"$sitename\"";
 
-    mail($recepient, $pagetitle, $message, "Content-type: text/plain; charset=\"utf-8\"n\ From: $recepient");
+    mail($recepient, $pagetitle, $message, 'Content-type: text/html; charset=\"utf-8\"n\ From: $recepient');
 }
 
 
